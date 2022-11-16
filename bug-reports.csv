@@ -1,0 +1,465 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Ideal days","Original estimation","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G13-257","group1.3","Star","New TO-DO/Edit TO-DO : Back button on Android and left arrow in upper left corner of the app doesn't work when undo creating a new task/editing the task.","Yuliia","8 Nov 2022","15 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**Pre-conditions:**
+
+There are 3 tasks in ""AL TO-DOs"".
+
+**STR:**
+
+1. Run the app.
+2. Tap the ""+"" button.
+3. Tap the left arrow in upper left corner of the app.
+4. Tap Back button on Android.
+
+**Actual result:** Back button on Android and left arrow in upper left corner of the app doesn't work when undo creating a new task.
+
+**Expected result:**  Back button on Android and left arrow in upper left corner of the app returns to ALL TO-DOs page when undo creating a new task.","0"
+"G13-258","group1.3","Star","New TO-DO: The task isn't created when inputting Arabic letters only into the Title field","Yuliia","8 Nov 2022","10 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**STR:**
+
+1. Run the app.
+2. Tap the ""+"" button.
+3. Input Arabic tetters only into a Title field.
+4. Leave the Description field blank.
+5. Tap the "" ✓ "" button.
+6. The same bug is reproduced when inputting arabic letters only into a task description field.
+
+**Actual result:** The task isn't created and the following message ""You have no TO-DOs!"" is displayed on the main screen.
+
+**Expected result:**  The task is created and displayed in ""ALL TO-DOs"".","0"
+"G13-248","group1.3","Star","New TO-DO: Max.length of a string is not defined for the ""Title"" field","Yuliia","7 Nov 2022","8 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**STR:**
+
+1. Run the app.
+2. Tap the ""+"" button.
+3. Input into a Title the following: ""Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"".
+4. Leave the Description field blank.
+5. Tap the "" ✓ "" button.
+
+**Actual result:** The task is created and displayed in ""ALL TO-DOs"". The following message: ""TO-DO saved"" is popped up on the main screen""ALL TO-DOs"". The validation message isn't popped up that a task cannot be created because of the ""Title"" field exceeds the max.length of a string. 
+
+**Expected result:** The task isn't created and the validation message is popped up that a task cannot be created because of the ""Title"" field exceeds the max.length of a string.","0"
+"G13-246","group1.3","Star","Mobile App Testing. Yuliia Artiukhova","Yuliia","6 Nov 2022","8 Nov 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)",,"0"
+"G13-252","group1.3","Star","New TO-DO: The task is created with a blank title","Yuliia","7 Nov 2022","8 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**STR:**
+
+1. Run the app.
+2. Tap the ""+"" button.
+3. Leave a Title field blank.
+4. Input ""Check email"" into a task description field.
+5. Tap the "" ✓ "" button.
+
+**Actual result:** The task is created and displayed in ""ALL TO-DOs"". The following message: ""TO-DO saved"" is popped up on the main screen""ALL TO-DOs"".
+
+**Expected result:** The task isn't created and the validation message is popped up that a task cannot be created because of the ""Title"" is a mandatory field.","0"
+"G13-256","group1.3","Star","Statistics: Calculation of completed tasks doesn't display real count of completed tasks","Yuliia","8 Nov 2022","8 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**Pre-conditions:**
+
+There are 3 tasks in ""AL TO-DOs"".
+
+**STR:**
+
+1. Run the app.
+2. Mark a ""Holiday"" task as complete.
+3. Tap a Hamburger menu.
+4. Tap Statistics.
+5. Observe the information in Statistics.
+
+**Actual result:** ""Completed tasks"" is displayed  the count ""0"" instead of ""1"".
+
+**Expected result:**  ""Completed tasks"" is displayed  the count ""1"".","0"
+"G13-255","group1.3","Star","New TO-DO: The task isn't created when inputting a smiley into the Title and task description fields","Yuliia","7 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**Pre-conditions:**
+
+There are several tasks in ""AL TO-DOs"".
+
+**STR:**
+
+1. Run the app.
+2. Tap the ""+"" button.
+3. Input a smiley into the Title field.
+4. Leave the Description field blank.
+5. Tap the "" ✓ "" button.
+6. The same bug is reproduced when inputting a smiley into a task description field.
+
+**Actual result:** The task isn't created. All previously created tasks are deleted and the following message ""You have no TO-DOs!"" is displayed.
+
+**Expected result:**  The task is created and displayed with all previously created tasks in ""ALL TO-DOs"".","0"
+"G13-254","group1.3","Star","New TO-DO: The task isn't created when inputting special characters only into the Title field","Yuliia","7 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**Pre-conditions:**
+
+There are several tasks in ""AL TO-DOs"".
+
+**STR:**
+
+1. Run the app.
+2. Tap the ""+"" button.
+3. Input special character only into a Title field.
+4. Leave the Description field blank.
+5. Tap the "" ✓ "" button.
+6. The same bug is reproduced when inputting special character only into a task description field.
+
+**Actual result:** The task isn't created. All previously created tasks are deleted and the following message ""You have no TO-DOs!"" is displayed.
+
+**Expected result:**  The task is created and displayed with all previously created tasks in ""ALL TO-DOs"".","0"
+"G13-253","group1.3","Star","New TO-DO: The task isn't created when inputting a combination of letters, numbers and special characters into the Title and task description fields","Yuliia","7 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**Pre-conditions:**
+
+There are several tasks in ""AL TO-DOs"".
+
+**STR:**
+
+1. Run the app.
+2. Tap the ""+"" button.
+3. Input a combination of letters, numbers and special characters into the Title field: ""Flowers, cake and 30 balloons"".
+4. Leave the Description field blank.
+5. Tap the "" ✓ "" button.
+6. The same bug is reproduced when inputting a combination of letters, numbers and special characters into a task description field.
+
+**Actual result:** The task isn't created. All previously created tasks are deleted and the following message ""You have no TO-DOs!"" is displayed.
+
+**Expected result:**  The task is created and displayed with all previously created tasks in ""ALL TO-DOs"".","0"
+"G13-250","group1.3","Star","New TO-DO: There is no validation message when inputting space only into a Title field","Yuliia","7 Nov 2022","8 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**STR:**
+
+1. Run the app.
+2. Tap the ""+"" button.
+3. Input only space into a Title field.
+4. Tap the "" ✓ "" button.
+
+**Actual result:** The task is created  and displayed on the main screen""ALL TO-DOs""  with the pop up message: ""TO-DO saved""
+
+**Expected result:**  When creating a task by inputting only space into a Title field the validation message that a task cannot be saved should be displayed on the screen.","0"
+"G13-249","group1.3","Star","Edit TO-DO: The task title (description) isn't changed after editing","Yuliia","7 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**Pre-conditions:**
+
+\- the task was created.
+
+**STR:**
+
+1. Run the app.
+2. Tap the created task.
+3. Tap ""Edit a task"".
+4. Edit the task title (description).
+5. Tap the "" ✓ "" button.
+6. Tap the edited task.
+
+**Actual result:** The task title (description)  isn't changed after editing.
+
+**Expected result:** The task title (description)  is changed after editing and the following message is popped up that a task was successfully edited.","0"
+"G13-247","group1.3","Star","Action menu: The app is crashed after tapping ""Refresh""","Yuliia","6 Nov 2022","8 Nov 2022",,"Show-stopper","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**STR:**
+
+1. Run the app.
+2. Tap the Action menu.
+3. Tab ""Refresh"".
+
+**Actual result:** The app is crashed after tapping ""Refresh"".
+
+**Expected result:** After tapping ""Refresh"" the information in TO-DO list should be refreshed.","0"
+"G13-251","group1.3","Star","New TO-DO: The task isn't created when inputting digits only into the Title field","Yuliia","7 Nov 2022","8 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"Mi 9, Android version 10","No qase tc # (only for bug)","**Pre-conditions:**
+
+There are several tasks in ""AL TO-DOs"".
+
+**STR:**
+
+1. Run the app.
+2. Tap the ""+"" button.
+3. Input digit only into a Title field.
+4. Leave the Description field blank.
+5. Tap the "" ✓ "" button.
+6. The same bug is reproduced when inputting digit only into a task description field.
+
+**Actual result:** The task isn't created. All previously created tasks are deleted and the following message ""You have no TO-DOs!"" is displayed.
+
+**Expected result:**  The task is created and displayed with all previously created tasks in ""ALL TO-DOs"".","0"
+"G13-150","group1.3","Star","Payment information: The validation message is not displayed for the 'Card number' field while inputting into it spaces at the beginning and at the end","Yuliia","1 Oct 2022","1 Oct 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**Pre-conditions:**
+
+* customer added the product into a cart
+* customer filled in all the required fields in 'Billing Address', 'Shipping Address' 'Shipping Method'
+* customer chose 'Credit card' payment method
+
+**STR:**
+
+1. Select 'Visa' from 'Select credit card' dropdown list.
+2. Enter 'Ivanov Ivan' into 'Cardholder name' input field.
+3. Enter '  4627100101654724  ' into 'Card number' input field.
+4. Select '12' month and '2025' year.
+5. Enter '123' into 'Card code' field.
+6. Click on the 'Continue' button.
+
+**Actual result:** The validation message is not displayed for the 'Card number' field while inputting into it spaces at the beginning and at the end.
+
+**Expected result:** The validation message should be displayed for the 'Card number' field while inputting into it spaces at the beginning and at the end.
+
+
+","0"
+"G13-97","group1.3","Star","Web App Testing. Yuliia Artiukhova","Yuliia","28 Sep 2022","1 Oct 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)",,"0"
+"G13-143","group1.3","Star","Shopping cart: Validation message is not displayed when leaving dropdown list 'Country' unselected ","Yuliia","30 Sep 2022","1 Oct 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**Pre-conditions:**
+
+\- the product was added into the shopping cart
+
+\- the country was not chosen from 'Country' dropdown list.
+
+**STR:**
+
+1. Leave mandatory dropdown list 'Country' unselected
+2. Click on the button 'Estimate shipping'
+3. See no validation mesage is displayed
+
+**Actual result:** Validation message is not displayed when leaving dropdown list 'Country' unselected.
+
+**Expected result:** Validation message should be displayed when leaving dropdown list 'Country' unselected.","0"
+"G13-148","group1.3","Star","Payment information: There is no validation for 'Card number' field when inputting '0'","Yuliia","30 Sep 2022","30 Sep 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**Pre-conditions:**
+
+* customer added the product into a cart
+* customer filled in all the required fields in 'Billing Address', 'Shipping Address' 'Shipping Method'
+* customer chose 'Credit card' payment method
+
+**STR:**
+
+1. Select 'Visa' from 'Select credit card' dropdown list.
+2. Enter 'Ivanov Ivan' into 'Cardholder name' input field.
+3. Enter '0' into 'Card number' input field.
+4. Enter '123' into 'Card code' field.
+5. Click on the 'Continue' button.
+
+**Actual result:** Validation message is not displayed when inputting '0' into 'Card number' field.
+
+**Expected result:** Validation message should be displayed when inputting '0' into 'Card number' field.","0"
+"G13-144","group1.3","Star","Shopping cart: Validation message is not displayed after inputting an invalid zip / postal code ","Yuliia","30 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**Pre-conditions:** the product was added into the shopping cart.
+
+**STR:**
+
+1. Select 'Ukraine' from the dropdown list 'Country'
+2. Enter invalid zip / postal code '010011' into 'Zip / postal code' input field
+3. Click on the button 'Estimate shipping'
+4. See no validation mesage is displayed
+
+**Actual result:** Validation message is not displayed after inputting invalid zip / postal code.
+
+**Expected result:** Validation message should be displayed after inputting invalid zip / postal code.","0"
+"G13-149","group1.3","Star","Payment information: There is no validation for 'Cardholder name' field when inputting letters, numbers and special characters","Yuliia","30 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**Pre-conditions:**
+
+* customer added the product into a cart
+* customer filled in all the required fields in 'Billing Address', 'Shipping Address' 'Shipping Method'
+* customer chose 'Credit card' payment method
+
+**STR:**
+
+1. Select 'Visa' from 'Select credit card' dropdown list.
+2. Enter '123ivan&&&' into 'Cardholder name' input field.
+3. Enter valid '4486441729154030' card number.
+4. Select month '12', year '2025' from the 'Expiration date' dropdown list.
+5. Enter valid '123' card code.
+6. Click on the 'Continue' button.
+7. Click on the 'Confirm' button.
+
+**Actual result:** Validation message is not displayed when inputting letters, numbers and special characters into 'Cardholder name' field.
+
+**Expected result:** Validation message should be displayed when inputting letters, numbers and special characters into 'Cardholder name' field.","0"
+"G13-147","group1.3","Star","Payment information: 'Cardholder name', 'Card number', 'Card code' fields are not marked by asterix symbol as required fields","Yuliia","30 Sep 2022","30 Sep 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**Pre-conditions:**
+
+* customer added the product into a cart
+* customer filled in all the required fields in 'Billing Address', 'Shipping Address' 'Shipping Method'
+* customer chose 'Credit card' payment method
+
+**STR:**
+
+1. Leave empty values in 'Cardholder name', 'Card number', 'Card code' input fields.
+2. Click on the 'Continue' button.
+3. Observe validation messages.
+
+**Actual result:** 'Cardholder name', 'Card number', 'Card code' fields are not marked by asterix symbol as required fields.
+
+**Expected result:** 'Cardholder name', 'Card number', 'Card code' fields should be marked by asterix symbol as required fields.","0"
+"G13-146","group1.3","Star","Payment information: Max.length is not defined for the 'Cardholder name' input field","Yuliia","30 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**Pre-conditions:**
+
+* customer added the product into a cart
+* customer filled in all the required fields in 'Billing Address', 'Shipping Address' 'Shipping Method'
+* customer chose 'Credit card' payment method
+
+**STR:**
+
+1. Enter 'Ivanov Ivan Ivanov Ivan Ivanov Ivan Ivanov Ivan' into 'Cardholder name' input field.
+
+**Actual result:** Max.length is not defined for the input field 'Cardholder name'.
+
+**Expected result:** Max.length should be defined for the input fields 'Cardholder name'.","0"
+"G13-141","group1.3","Star","Shopping cart: Max.length is not defined for the input fields 'Qty.', 'Discount code', 'Gift card', 'Zip / postal code'","Yuliia","30 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Go to <https://demowebshop.tricentis.com/>
+2. Click on the 'Electronics' tab \> Cell phones
+3. Add a product to a cart
+4. Go to the 'Shopping cart'
+5. Enter '111111111111111' into 'Qty.' input field
+6. Enter 'couponcouponcouponcouponcoupon' into 'Discount code' input field
+7. Enter 'giftcardcodegiftcardcodegiftcardcodegiftcardcode' into 'Gift card' input field
+8. Enter '1234567891011121314151617' into Zip / postal code' input field
+
+**Actual result:** Max.length is not defined for the input fields 'Qty.', 'Discount code', 'Gift card', 'Zip / postal code'.
+
+**Expected result:** Max.length should be defined for the input fields 'Qty.', 'Discount code', 'Gift card', 'Zip / postal code.","0"
+"G13-145","group1.3","Star","Shopping cart: 'Estimate shipping' box is not displaying shipping results of calculations correctly","Yuliia","30 Sep 2022","30 Sep 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**Pre-conditions:** the product was added into the shopping cart.
+
+**STR:**
+
+1. Select 'Ukraine' in a dropdown list 'Country'
+2. Enter valid zip / postal code '01001' into 'Zip / postal code' input field
+3. Click on the button 'Estimate shipping'
+4. Observe the shipping results of calculation
+
+**Actual result:** 'Estimate shipping' box is not displaying shipping results of calculations correctly.
+
+**Expected result:** 'Estimate shipping' box should display shipping results of calculations correctly.","0"
+"G13-142","group1.3","Star","Shopping cart: Wrong validation message 'The coupon code you entered couldn't be applied to your order' is displayed after inputting invalid gift card code and clicking the 'Add gift card' button","Yuliia","30 Sep 2022","30 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**Pre-conditions:** the product was added into the shopping cart.
+
+**STR:**
+
+1. Enter invalid gift card code '00-00-00' into 'Gift card code' input field.
+2. Click on the button 'Add gift card'.
+3. Observe the incorrect validation message: 'The coupon code you entered couldn't be applied to your order'.
+
+**Actual result:** Validation message 'The coupon code you entered couldn't be applied to your order' is displayed after inputting invalid gift card code and clicking the 'Add gift card' button.
+
+**Expected result:** Validation message 'The gift card code you entered couldn't be added to your order' should be displayed after inputting invalid gift card code and clicking the 'Add gift card' button.","0"
+"G13-103","group1.3","Star","Shopping Cart Page: There is no validation message when entering letters, special characters into 'Qty.' input field","Yuliia","28 Sep 2022","28 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Go to <https://demowebshop.tricentis.com/>
+2. Click on the 'Electronics' tab \> Cell phones
+3. Add a product to a cart
+4. Go to the 'Shopping cart'
+5. Enter 'three' into 'Qty.' input field
+
+**Actual result:** Validation message is not displayed when entering letters (special characters) into 'Qty.' input field.
+
+**Expected result:** Validation message should be displayed when entering letters (special characters) into 'Qty.' input field.","0"
+"G13-101","group1.3","Star","Shopping Cart Page: The currency is not displayed when adding a product into the cart","Yuliia","28 Sep 2022","28 Sep 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Go to <https://demowebshop.tricentis.com/>
+2. Click on the 'Electronics' tab \> Cell phones
+3. Add a product to a cart
+4. Go to the 'Shopping cart'
+5. Observe that 'Price' and 'Total' titles do not have the currency symbol
+
+**Actual result:** 'Price' and 'Total' titles do not have the currency symbol.
+
+**Expected result:** 'Price' and 'Total' titles must have the currency symbol.","0"
+"G13-4","group1.3","Star","Testing Documentation. Yuliia Artiukhova","Yuliia","16 Sep 2022","28 Sep 2022",,"Critical","Task","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)",,"0"
+"G13-38","group1.3","Star","Billing address: The fields ('FirstName', 'LastName', 'Email', 'Address', 'Mobile Number') are not marked with asterisk symbol (*)","Yuliia","19 Sep 2022","20 Sep 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Observe all fields in 'Billing address'
+
+**Actual result:** The fields in 'Billing address' are not marked with asterisk symbol (\*).
+
+**Expected result:** The fields in 'Billing address' should be marked with asterisk symbol (\*).","0"
+"G13-47","group1.3","Star","Add Customer Page: 'Mobile no must not be blank' is displayed when leaving the field 'Mobile Nunber' blank","Yuliia","19 Sep 2022","20 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","G13-15","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Leave 'Mobile Number' field blank
+4. See the text error below 'Mobile Number' field
+
+**Actual result:** Error text message is displayed 'Mobile no must not be blank'.
+
+**Expected result:** Error text message should be displayed 'Mobile must not be blank'.","0"
+"G13-39","group1.3","Star","Add Customer Page: 'Customer name must not be blank' is displayed when leaving the field 'FirstName' blank","Yuliia","19 Sep 2022","20 Sep 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","G13-2","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Leave 'First Name' field blank
+4. See the text error below 'FirstName' field 
+
+**Actual result:** Error text message is displayed 'Customer name must not be blank'.
+
+**Expected result:** Error text message should be displayed 'First Name must not be blank'.","0"
+"G13-46","group1.3","Star","Add Customer Page: 'Special characters are not allowed' is displayed when entering combination of cyrillic and special characters into 'Address' field","Yuliia","19 Sep 2022","20 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","G13-14","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Enter combination of cyrillic and special characters into 'Address' field, e.g.: Украина/Киев
+4. See the text error below 'Address' field
+
+**Actual result:** Error text message is displayed 'Special characters are not allowed'.
+
+**Expected result:** Error text message should be displayed 'Cyrillic and special characters are not allowed'.","0"
+"G13-45","group1.3","Star","Add Customer Page: 'Special characters are not allowed' is displayed when entering cyrillic into 'Address' field","Yuliia","19 Sep 2022","20 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Enter cyrillic address into 'Address' field, e.g.: Украина
+4. See the text error below 'Address' field
+
+**Actual result:** Error text message is displayed 'Special characters are not allowed'.
+
+**Expected result:** Error text message should be displayed 'Cyrillic are not allowed'.","0"
+"G13-43","group1.3","Star","Add Customer Page: 'Numbers are not allowed' is displayed when entering cyrillic into 'Last Name' field  ","Yuliia","19 Sep 2022","20 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","G13-10","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Enter cyrillic Last Name into 'LastName' field, e.g.: Иванов
+4. See the text error below 'LastName' field
+
+**Actual result:** Error text message is displayed 'Numbers are not allowed'.
+
+**Expected result:** Error text message should be displayed 'Cyrillic are not allowed'.","0"
+"G13-44","group1.3","Star","Add Customer Page: 'Special characters are not allowed' is displayed when entering combination of numbers, cyrillic and special characters into 'Last Name' field","Yuliia","19 Sep 2022","20 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","G13-11","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Enter 1Иванов$ into 'LastName' field
+4. See the text error below 'LastName' field
+
+**Actual result:** Error text message is displayed 'Special characters are not allowed'.
+
+**Expected result:** Error text message should be displayed 'Numbers, Cyrillic and special characters are not allowed'.","0"
+"G13-42","group1.3","Star","Add Customer Page: 'Customer name must not be blank' is displayed when leaving the field 'LastName' blank","Yuliia","19 Sep 2022","20 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","G13-7","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Leave 'Last Name' field blank
+4. See the text error below 'LastName' field
+
+**Actual result:** Error text message is displayed 'Customer name must not be blank'.
+
+**Expected result:** Error text message should be displayed 'Last Name must not be blank'.","0"
+"G13-41","group1.3","Star","Add Customer Page: 'Special characters are not allowed' is displayed when entering combination of numbers, cyrillic and special characters into 'First Name' field","Yuliia","19 Sep 2022","20 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","G13-6","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Enter 1Иван$ into 'FirstName' field
+4. See the text error below 'FirstName' field
+
+**Actual result:** Error text message is displayed 'Special characters are not allowed'.
+
+**Expected result:** Error text message should be displayed 'Numbers, Cyrillic and special characters are not allowed'.","0"
+"G13-40","group1.3","Star","Add Customer Page: 'Numbers are not allowed' is displayed when entering cyrillic into 'First Name' field","Yuliia","19 Sep 2022","20 Sep 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","G13-4","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Enter cyrillic First Name into 'FirstName' field
+4. See the text error below 'FirstName' field
+
+**Actual result:** Error text message is displayed 'Numbers are not allowed'.
+
+**Expected result:** Error text message should be displayed 'Cyrillic are not allowed'.","0"
+"G13-37","group1.3","Star","Billing address: No titles for the fields 'FirstName', 'LastName', 'Email', 'Address', 'Mobile Number'","Yuliia","19 Sep 2022","20 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Observe all fields in 'Billing address'
+
+**Actual result:** The fields ('FirstName', 'LastName', 'Email', 'Address', 'Mobile Number') in 'Billing address' do not have titles.
+
+**Expected result:** The fields ('FirstName', 'LastName', 'Email', 'Address', 'Mobile Number') in 'Billing address' should have titles.","0"
+"G13-6","group1.3","Star","Add Customer Page: Address is not accepted while entering comma and dot into the field 'Enter your address'","Yuliia","16 Sep 2022","19 Sep 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","G13-1","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Click on 'Add customer' button
+3. Enter address into 'Enter your address' field: Ukraine, Kyiv, Pobedy St., b. 5, app. 40
+4. See the error below the address field: 'Special characters are not allowed'
+
+**Actual result:** Address is not accepted while entering comma and dot into the field 'Enter your address'.
+
+**Expected result:** Address should be accepted while entering comma and dot into the field 'Enter your address'.","0"
+"G13-5","group1.3","Star","Main Page:  'Delete Customer' button and its description are not displayed","Yuliia","16 Sep 2022","19 Sep 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,,,"No environment","No qase tc # (only for bug)","**STR:**
+
+1. Go to <https://demo.guru99.com/telecom/index.html>
+2. Observe all buttons on the main page
+
+   
+
+**Actual result:** 'Delete' button and its description are not displayed on the main page.
+
+**Expected result:** 'Delete' button and its description should be displayed on the main page.","0"
